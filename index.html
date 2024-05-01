@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">KARUPPAIAH SORNAM</div>
+       <div>
+             <ul class="nav-link">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skill">SKILL</a></li>
+                <li><a href="#education">EDUCATION</a></li>
+                <li><a href="#project">PROJECT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">KARUPPAIAH SORNAM</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">ABOUT</a></li>
+                <li><a href="#skill" onclick="toggleMenu()">SKILL</a></li>
+                <li><a href="#education" onclick="toggleMenu()">EDUCATION</a></li>
+                <li><a href="#project" onclick="toggleMenu()">PROJECT</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">CONTACT</a></li>
+
+            </div>
+
+        </div>
+        
+
+
+    </nav>
+    <section id="about">
+        <div class="section-pic-container">
+        <img src="karuppaiahcut.jpeg" alt="karuppaiah profile picture">
+    </div>
+    <div class="section-text">
+        <p class="section-text-p1">Hello,I'm</p>
+        <h1 class="title">KARUPPAIAH SORNAM</h1>
+        <p class="section_text_p2">Aspirant developer</p>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('resume.pdf')" downloading>DOWNLOAD CV</button>
+            <button class="btn btn-color-1" onclick="location.href='#contact'">CONTACT</button>
+        </div>
+        <div class="social-container">
+            <img src="linkedin.png" alt="My Linkedin profile" class="icon" onclick="location.href='https:www.linkedin.com/in/karuppaiah-sornam-763231239'">
+            <img src="github.png" alt="My github profile" class="icon" onclick="location.href='https://github.com/KARUPPAIAHSORNAM'">
+        </div>
+    </div>
+    </section>
+    <section id="skill">
+        <h1>TECHNICAL SKILL</h1>
+        <div class="technical_skill">
+            <div class="article_container">
+                <article class="skillalign">
+                    <img src="checkmark.png" alt="checkmark icon" class="icon skillicon">
+                    <div>
+                        <h2>HTML</h2>
+                    </div>
+                </article>
+                <article class="skillalign">
+                    <img src="checkmark.png" alt="checkmark icon" class="icon skillicon">
+                    <div>
+                        <h2>CSS</h2>
+                    </div>
+                </article>
+                <article class="skillalign">
+                    <img src="checkmark.png" alt="checkmark icon" class="icon skillicon">
+                    <div>
+                        <h2>JAVA</h2>
+                    </div>
+                </article>
+                <article class="skillalign">
+                    <img src="checkmark.png" alt="checkmark icon" class="icon skillicon">
+                    <div>
+                        <h2>GIT&GITHUB</h2>
+                    </div>
+                </article>
+                <article class="skillalign">
+                    <img src="checkmark.png" alt="checkmark icon" class="icon skillicon">
+                    <div>
+                        <h2>JAVASCRIPT</h2>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="education">
+        <h1>EDUCATION</h1>
+        <div class="education_details_container">
+            <article class="education">
+                <img src="education.png" alt="education details" class="icon educicon">
+                <div>
+                    <h2>BE MECHANICAL ENGINEERING</h2>
+                    <p>Alagapp Chettiar government college of Engineering And Technology Karaikudi.</p>
+                    <span>2020-2024</span>
+                    <span class="mark">CGPA-7.84</span>
+                </div>
+            </article>
+            <article class="education">
+                <img src="education.png" alt="education details" class="icon educicon">
+                <div>
+                    <h2>HSC</h2>
+                    <p>Government Higher Secondary School Ariyakudi.</p>
+                    <span>2019-2020</span>
+                    <span class="mark">PERCENTAGE-77%</span>
+                </div>
+            </article>
+            <article class="education educicon">
+                <img src="education.png" alt="education details" class="icon">
+                <div>
+                    <h2>SSLC</h2>
+                    <p>Government High School Iluppakudi.</p>
+                    <span>2017-2018</span>
+                    <span class="mark">PERCENTAGE-91%</span>
+                </div>
+            </article>
+        </div>
+    </section>
+    
+    <section id="project">
+        <h1 class="title">PROJECTS</h1>
+        <div class="left">
+            <img src="travel1.png" alt="travel project">
+            <h2>TRAVEL PROJECT</h2>
+            <p>This project helps tourists find excellent places to travel to around the world</p>
+            <span>TECH STACK:</span>
+            <p>HTML,CSS,JAVASCRIPT</p>
+            <button type="button" class="live"><a href="https://chilltravel.netlify.app/">Live Demo</a></button>
+            <button type="button"><a href="https://github.com/KARUPPAIAHSORNAM/chill-travel.git">Github</a></button>
+
+        </div>
+        <div class="right">
+            <img src="portfolio.png" alt="portfolio">
+            <h2>PORTFOLIO PROJECT</h2>
+            <p>This project is a portfolio showcasing information about myself</p>
+            <span>TECH STACK:</span>
+            <p>HTML,CSS,JAVASCRIPT</p>
+            <button type="button" class="live"><a href="index.html">Live Demo</a></button>
+            <button type="button"><a href="https://github.com/KARUPPAIAHSORNAM/porfolio.git">Github</a></button>
+
+
+        </div>
+            
+    </section>
+    <section id="contact">
+        <h1 class="title">CONTACT ME</h1>
+        <div class="contact_info_upper_container">
+            <div class="cotact_info_container">
+                <img src="email.png" alt="email icon" class="icon contact_icon">
+                <p><a href="mailto:karuppaiahso@gmail.com">karuppaiahso@gmail.com</a></p>
+            </div>
+            <div class="cotact_info_container">
+                <img src="linkedin.png" alt="linked icon" class="icon contact_icon">
+                <p><a href="www.linkedin.com/in/karuppaiah-sornam-763231239">Linked In</a></p>
+              
+            </div>
+            <div class="cotact_info_container">
+                <img src="mobile.png" alt="linked icon" class="icon contact_icon">
+                <p><a href="tel:+91 9487954616">Mobile No</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-link">
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#skill">SKILL</a></li>
+                    <li><a href="#education">EDUCATION</a></li>
+                    <li><a href="#project">PROJECT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Karuppaiah Sornam.All Rights Reserved</p>
+    </footer>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>

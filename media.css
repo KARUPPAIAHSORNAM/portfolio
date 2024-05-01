@@ -1,0 +1,92 @@
+@media screen and (max-width:1400px) {
+   #about{
+    height: 83vh;
+    margin-bottom: 6rem;
+   }
+
+}
+@media screen and (max-width:1200px) {
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+    #skill,.technical_skill{
+        margin-top: 2rem;
+    }
+    #about{
+        display: block;
+    }
+    section,.section-text{
+        height: fit-content;
+    }
+    section{
+        margin: 0 5%;
+    }
+    .section-pic-container{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+}
+@media screen and (max-width:600px){
+    #contact,footer{
+        height: 40vh;
+    }
+    #about{
+        height: 83vh;
+        margin-bottom: 0;
+    }
+    article{
+        font-size: 1rem;
+    }
+    footer nav{
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    .contact_info_upper_container,.btn-containet{
+        flex-wrap: wrap;
+        
+    }
+    .cotact_info_container{
+        margin: 0;
+
+    }
+    .cotact_info_container p,.nav-link li a{
+        font-size: 1rem;
+    }
+    .nav-link{
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    .education .mark{
+        display: block;
+        left: 0;
+    }
+    #skill h1{
+      margin-top: 20%;
+      font-size: 1.5rem;
+    }
+    #education h1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .title{
+        font-size: 1.5rem;
+    }
+    .contact_icon{
+        height: 2rem;
+    }
+    .skillicon{
+       
+        display: none;
+      
+    }
+    #project div{
+        width: 80%;
+        border: 1px solid black;
+    }
+
+}
